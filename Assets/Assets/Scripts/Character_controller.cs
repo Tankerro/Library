@@ -15,7 +15,7 @@ public class Character_controller : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
-    Vector3 velocity;
+    public Vector3 velocity;
     public bool isGrounded;
     void Start()
     {
